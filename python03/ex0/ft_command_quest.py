@@ -2,7 +2,7 @@ import sys
 
 
 def command_quest() -> None:
-    my_list = sys.argv
+    my_list: list = sys.argv
     print("=== Command Quest ===")
     print(f"Program name: {my_list[0]}")
     if len(my_list) == 1:
